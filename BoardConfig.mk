@@ -55,6 +55,9 @@ TARGET_CAMERA_SERVICE_EXT_LIB := //$(COMMON_PATH):libcameraservice_extension.sm8
 # Camera Malloc
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+
 # Display
 BOARD_USES_ADRENO := true
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x546C00000000
