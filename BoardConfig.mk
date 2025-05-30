@@ -192,5 +192,10 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 CONFIG_IEEE80211AX := true
 
+# Build Enviroment
+BUILD_USERNAME := Murtaza
+BUILD_HOSTNAME := Eclipse
+TZ := Asia/Karachi
+
 # Inherit the proprietary files
 include vendor/xiaomi/apollo/BoardConfigVendor.mk
