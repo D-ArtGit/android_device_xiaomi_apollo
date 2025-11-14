@@ -167,9 +167,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,qtidisplay,gralloc_handle_has_reserved_size,true)
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
@@ -412,9 +409,6 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
-
-# ViPER4AndroidFX
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
